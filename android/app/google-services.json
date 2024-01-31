@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "642609187493",
+    "project_id": "test-5e99b",
+    "storage_bucket": "test-5e99b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:642609187493:android:e313e69c15857dfa2c1b4c",
+        "android_client_info": {
+          "package_name": "com.jazzworld"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAEMg1SyUzO9E5Dt2COzyor3P6GIR_ZMRY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

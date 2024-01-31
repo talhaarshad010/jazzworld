@@ -1,0 +1,42 @@
+export const PackagesDATA = [
+  {
+    title: 'Monthly 3GB',
+    Validity: '30 Days',
+    Internet: 3072,
+    onnet: 550,
+    SMS: 1100,
+    Rs: 'RS 139',
+  },
+  {
+    title: 'Super Ghanta offer',
+    Validity: '1 Days',
+    Internet: 1000,
+    onnet: 200,
+    SMS: 1200,
+    Rs: 'RS 159',
+  },
+  {
+    title: 'Daily SMS + WhatsApp',
+    Validity: '1 Days',
+    onnet: 100,
+    SMS: 2000,
+    Internet: 1800,
+    Rs: 'RS 199',
+  },
+  {
+    title: 'Monthly Social Plus',
+    Validity: '30 Days',
+    Internet: 15360,
+    onnet: 500,
+    SMS: 1000,
+    Rs: 'RS 1299',
+  },
+  {
+    title: 'Monthly Youtube & Social',
+    Validity: '30 Days',
+    Internet: 10240,
+    onnet: 500,
+    SMS: 1000,
+    Rs: 'RS 1390',
+  },
+];

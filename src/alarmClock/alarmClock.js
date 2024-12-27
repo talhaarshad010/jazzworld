@@ -72,27 +72,6 @@ const AlarmClock = () => {
   }, []); // Run this effect only once on component mount
   const Datetee = moment(currentDateTime).format('hh:mm:ss:A');
   console.log('dasdasdad', Datetee);
-  // Automatically refresh time and check for notifications
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     checkAndTriggerNotifications();
-  //   }, 1000 * 60); // Check every minute, adjust as needed
-
-  //   return () => clearInterval(intervalId);
-  // }, []);
-
-  // const checkAndTriggerNotifications = () => {
-  //   alarmTime.forEach(alarm => {
-  //     // console.log(alarmDateTime);
-
-  //     // console.log('zzzzzzzzzzzzzz' + alarmDateTime.toLocaleString());
-  //     if (Datetee == alarm) {
-  //       console.log('matched');
-  //       scheduleNotification(`Alarm ${alarm}`, "It's time!");
-  //     }
-  //   });
-  // };
-
   // Rendering Items From Redux
   const renderItem = ({item, index}) => {
     if (Datetee == item) {
